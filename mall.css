@@ -274,6 +274,17 @@ body{
 	align-items: center;
 }
 
+@media (max-width: 720px){
+	.row{
+		flex-direction: column;
+		height: 60%;
+	}
+	.knapp{
+		display: none;
+	}
+	
+}
+
 .col{
 	flex-basis: 50%;
 }
